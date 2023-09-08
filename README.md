@@ -2,11 +2,11 @@
  
 A simple HTTP server using epoll.
 
-    HTTP_SERVER uses epoll to look and wait for clients. HTTP_SERVER takes in port number as a argument. 
-    It Accepts 
-    1. Two HTTP methods: GET and POST.
-    2. Two Paths: / and /echo.
-    3. One protocal : HTTP/1.0.
+HTTP_SERVER uses epoll to look and wait for clients. HTTP_SERVER takes in port number as a argument. 
+It Accepts 
+ 1. Two HTTP methods: GET and POST.
+ 2. Two Paths: / and /echo.
+ 3. One protocal : HTTP/1.0.
 
 The can be any number of headers.
 Acceptable Field Names: "Content-Length", "Content-Type" and "Host"
